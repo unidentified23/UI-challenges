@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+
+}
+
+.App-header {
+  margin: 0%;
+  padding: 0%;
+  padding-top: 7%;
+  padding-bottom: 11%;
+  background-image: url(./images/backr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-weight: bold;
+  background-attachment: fixed;
+  
+  
+}
+
+
+.input[type=text] {
+  text-size-adjust: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  
+  
+  
+}
+
+
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  color: white;
+  font-size: calc(30px + 4vmin);
+  font-weight: 1000;
+}
+
+.text-block2 {
+  
+  color: white;
+  padding-bottom: 2px;
+  font-size: calc(20px + 3vmin);
+  font-weight: bold;
+}
+
+.text-block3 {
+  
+  
+  padding-top: 5px;
+  color: white;
+  font-size: calc(10px + 1vmin);
+  font-weight: 500;
+}
+
+.text-block4 {
+
+  bottom: 20px;
+  color: white;
+  padding-top: 70px;
+  font-size: calc(10px + 1vmin);
+  font-weight: 500;
+}
+
+
+.row {
+  display: flex;
+
+  
+}
+
+
+.column {
+  width: 60%;
+  
+  
+  
+  
+} 
+
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  background-size: cover;
+  background-color: #0e06f5;
+  overflow: hidden; 
+  bottom: 0;
+  position: fixed;
+  padding-left: 130px;
+  width: 35%;
+  align-items: center;
+
+
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+  
+
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  align-items: center;
+  
+}
+
+/* Change the color of links on hover*/
+.navbar a:hover {
+  background-color: #0df3ff;
+  color: black;
+}
+
+/* Add a green background color to the active link */
+.navbar a.active {
+  color: rgb(29, 232, 255);
+}
+
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
