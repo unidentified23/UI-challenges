@@ -35,17 +35,12 @@ function App() {
 
           <form>
             <label for="Email">
-              <input type="text" name="Email" placeholder='Email Address' />
-            </label>
-            <input type="submit" value="→" />
+              <input id="txtf" type="text" name="Email" placeholder='Email Address' />
+              <input  id="btn" type="submit" value="→" />
+             </label>
+            
 
-            <div className='input2'>
-
-                
-                  
-                
-            </div>
-
+            
           </form>
 
         </div>
