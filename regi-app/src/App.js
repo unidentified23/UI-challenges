@@ -106,7 +106,7 @@ function App() {
       setId(employee.Id);
       setPhonenumber(employee.Phonenumber);
       setEmppos(employee.Employeeposition);
-      setImages(employee.Images);;
+      setImages(employee.Images);
     }
   };
 
